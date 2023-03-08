@@ -7,8 +7,8 @@ const Routing = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/qr-code-challenge" element={<QR />}></Route>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/FrontEnd-projects-React-Tailwind-/qr-code-challenge" element={<QR />}></Route>
+        <Route path="/FrontEnd-projects-React-Tailwind-/" element={<Home />}></Route>
       </Routes>
     </BrowserRouter>
   )
