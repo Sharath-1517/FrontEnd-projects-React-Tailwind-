@@ -1,0 +1,44 @@
+@import './config';
+
+.App {
+
+    @media (min-width: $xsm) and (max-width: $sm) {
+        
+        .home{
+            &-nav {
+                &-text {
+                    margin: 10px 20px;
+                    font-size: 1.8rem;
+                }
+            }
+
+            &-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    @media (min-width: $sm) and (max-width: $md) {
+        .home {
+            &-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    @media (min-width: $md) and (max-width: $lg) {
+        .home {
+            &-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+
+    @media (min-width: $lg) {
+        .home {
+            &-container {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    }
+}

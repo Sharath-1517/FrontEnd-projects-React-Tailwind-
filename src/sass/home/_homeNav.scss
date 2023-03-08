@@ -1,0 +1,24 @@
+.home-nav {
+    padding: 15px 0;
+    background-color: rgb(15, 23, 42);
+    // position: fixed;
+    width: 100%;
+
+    &-text {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        color: white;
+    }
+
+}
+
+.solutions {
+    color: white;
+    &:hover {
+        color: rgb(103, 103, 221);
+        text-decoration: none;
+        transition: 1s;
+    }
+}
+
