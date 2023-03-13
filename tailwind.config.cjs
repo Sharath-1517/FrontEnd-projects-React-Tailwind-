@@ -21,10 +21,13 @@ module.exports = {
         "400": "400",
       },
       fontSize: {
-        "2rem": "1.5rem",
+        "1.5rem": "1.5rem",
       },
       padding: {
         "25px" : "25px",
+      },
+      screens: {
+        "tablet": "400px",
       }
     },
   },
