@@ -12,10 +12,19 @@
   font-family: "Raleway", sans-serif;
 }
 
+@media (min-width: 200px) and (max-width: 375px) {
+  .App .home-nav-text {
+    margin: 10px 20px;
+    font-size: 1.2rem;
+  }
+  .App .home-container {
+    grid-template-columns: 1fr;
+  }
+}
 @media (min-width: 375px) and (max-width: 640px) {
   .App .home-nav-text {
     margin: 10px 20px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .App .home-container {
     grid-template-columns: 1fr;

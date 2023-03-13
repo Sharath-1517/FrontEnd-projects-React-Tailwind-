@@ -2,13 +2,28 @@
 
 .App {
 
+    @media (min-width: $smallest) and (max-width: $xsm) {
+        .home{
+            &-nav {
+                &-text {
+                    margin: 10px 20px;
+                    font-size: 1.2rem;
+                }
+            }
+    
+            &-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
     @media (min-width: $xsm) and (max-width: $sm) {
         
         .home{
             &-nav {
                 &-text {
                     margin: 10px 20px;
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
                 }
             }
 
